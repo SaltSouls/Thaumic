@@ -206,5 +206,5 @@ for i, type in sbTypes {
 		[sbMaterial[i], sbMaterial[i], sbMaterial[i]]
 	]);
 
-	recipes.addShapeless(sbNames[i]+ "_unpack", sbMaterial[i] * 9, [storageBlock]);
+	recipes.addShapeless(sbNames[i] + "_unpack", sbMaterial[i] * 9, [storageBlock]);
 }
